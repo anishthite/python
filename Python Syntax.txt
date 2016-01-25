@@ -1,0 +1,4 @@
+commands:
+print ("fefnenfejnf") ---------------------outputs string
+print (nfjfnjnrf)--------------------------outputs variable
+(wioefu) = "fuefh"-------------------------sets variable to string - remove quotations for a numerical value
