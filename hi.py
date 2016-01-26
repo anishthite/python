@@ -1,1 +1,2 @@
-68 65 6c 6c 6f 20 3d 3d 20 22 48 65 6c 6c 6f 20 57 6f 72 6c 64 22 0d 0a 70 72 69 6e 74 20 68 65 6c 6c 6f
+hello == "Hello World"
+print hello
