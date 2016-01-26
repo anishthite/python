@@ -1,2 +1,8 @@
 # -*- coding: utf-8 -*-
-22 22 22 0d 0a 46 69 72 73 74 20 74 68 69 6e 67 61 6d 61 6a 69 67 0d 0a 22 22 22 0d 0a 22 57 61 74 63 68 20 4f 75 74 20 57 6f 72 6c 64 2c 20 48 65 72 65 20 49 20 43 6f 6d 65 22 0d 0a 70 72 69 6e 74 20 28 22 57 61 74 63 68 20 4f 75 74 20 57 6f 72 6c 64 2c 20 48 65 72 65 20 49 20 43 6f 6d 65 22 29 0d 0a 28 66 69 72 73 74 56 61 72 69 61 62 6c 65 29 20 3d 20 22 66 69 72 73 74 20 56 61 72 69 61 62 6c 65 20 59 41 59 21 22 0d 0a 70 72 69 6e 74 20 28 66 69 72 73 74 56 61 72 69 61 62 6c 65 29
+"""
+First thingamajig
+"""
+"Watch Out World, Here I Come"
+print ("Watch Out World, Here I Come")
+(firstVariable) = "first Variable YAY!"
+print (firstVariable)
