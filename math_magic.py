@@ -7,6 +7,7 @@ Some Math Magic
 """
 (age)= 25
 (age)-10 =(destiny)
+#not detecting variable but everything else is good
 print (destiny)
 print (5+5-6*2) 
 print (6**2)
