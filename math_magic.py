@@ -7,7 +7,7 @@ Some Math Magic
 """
 (age)= 25
 print (age-10)
-=(destiny)
+(destiny) = age-11
 print (destiny)
 print (5+5-6*2) 
 print (6**2)
