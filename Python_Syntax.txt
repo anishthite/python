@@ -2,3 +2,12 @@ commands:
 print ("fefnenfejnf") ---------------------outputs string
 print (nfjfnjnrf)--------------------------outputs variable
 (wioefu) = "fuefh"-------------------------sets variable to string - remove quotations for a numerical value
+
+
+Math Magic:
+2+2------------------ addition
+2*2------------------ multiplication
+2-2------------------ subtraction
+2/2------------------ division
+2**2----------------- exponents
+2 % 2---------------- Modulos- finds remainder of the two numbers
