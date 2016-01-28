@@ -19,7 +19,7 @@ Strings
 
 string methods:
 
-len(jndfjn)------ gives lenght of variables
+len(jndfjn)------ gives length of variables
 
 
 
