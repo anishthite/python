@@ -7,7 +7,10 @@ Created on Wed Jan 27 20:47:40 2016
 
 """ 
 
-A basic way to calculate a tip
+A basic way to calculate a tip---
+
+Instructions:
+
 Input the tax, meal, and tip
 
 """
