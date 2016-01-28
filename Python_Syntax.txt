@@ -22,6 +22,10 @@ string methods:
 len(jndfjn)------ gives length of variables
 
 
+anish.lower()---- returns as a lowercase
+
+anish.upper()---- retutns as uppercase
+
 
 
 

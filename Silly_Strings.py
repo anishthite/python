@@ -25,4 +25,11 @@ Going to test out some string operators I leared"
 Anish = ("Anish")
 print (len(Anish))
 
+#------------------
+print(Anish.lower())
  
+ #------------------
+print (Anish.upper())
+ #------------------
+pi = 3.14
+print (str(pi))
