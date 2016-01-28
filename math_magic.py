@@ -5,6 +5,9 @@ Created on Tue Jan 26 07:43:48 2016
 
 Some Math Magic
 """
+
+#Just to test out some Math Operators
+
 (age)= 25
 print (age-10)
 (destiny) = age-11
@@ -15,3 +18,5 @@ print (6**2)
 print (AnishisDumb)
 (Modulo) = 7 % 5
 print (Modulo) 
+
+#Success on first ry to entire time!
