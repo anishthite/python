@@ -33,3 +33,6 @@ print (Anish.upper())
  #------------------
 pi = 3.14
 print (str(pi))
+ #------------------
+
+print ("Anish " + "is " + "cool!")
