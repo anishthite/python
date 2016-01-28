@@ -11,3 +11,37 @@ Math Magic:
 2/2------------------ division
 2**2----------------- exponents
 2 % 2---------------- Modulos- finds remainder of the two numbers
+
+
+Strings
+
+(A) = "anish" [1] -- assigns values as indexes
+
+string methods:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+check out codecademy 
+
