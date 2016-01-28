@@ -11,3 +11,7 @@ print (age-10)
 print (destiny)
 print (5+5-6*2) 
 print (6**2)
+(AnishisDumb) = True
+print (AnishisDumb)
+(Modulo) = 7 % 5
+print (Modulo) 
