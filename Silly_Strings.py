@@ -16,3 +16,11 @@ print (Anish)
 print (A)
 
 #first try is a success!
+
+
+"""
+Going to test out some string operators I leared"
+
+"""
+Anish = ("Anish")
+print (len(Anish)) 
