@@ -13,7 +13,7 @@ Math Magic:
 2 % 2---------------- Modulos- finds remainder of the two numbers
 
 
-Strings
+Strings Stuff
 
 (A) = "anish" [1] -- assigns values as indexes
 
@@ -25,6 +25,25 @@ len(jndfjn)------ gives length of variables
 anish.lower()---- returns as a lowercase
 
 anish.upper()---- retutns as uppercase
+
+str()------------ returns as a string
+
+You can add Strings as well
+
+print ("Anish" + "is" + "cool" )
+
+
+WAY TO PRINT VARIABLE WITH STRING
+
+use %
+
+string_1 = "Camelot"
+string_2 = "place"
+
+print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
+- may not work
+
+
 
 
 

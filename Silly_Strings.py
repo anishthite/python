@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 27 20:57:08 2016
 
-@author: Anish
-"""
+#Created on Wed Jan 27 20:57:08 2016
+
+#@author: Anish
+
 #test out bug from 2.7 Python
-Anish = "it'sliteral's"
+Anish = "it's literal's"
 print (Anish)
 
 #first try is a success!
@@ -18,10 +18,9 @@ print (A)
 #first try is a success!
 
 
-"""
-Going to test out some string operators I leared"
 
-"""
+#Going to test out some string operators I leared"
+
 Anish = ("Anish")
 print (len(Anish))
 
@@ -36,3 +35,9 @@ print (str(pi))
  #------------------
 
 print ("Anish " + "is " + "cool!")
+
+
+
+#--------------------
+
+import(datetime)
