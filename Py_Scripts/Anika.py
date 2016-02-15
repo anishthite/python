@@ -14,8 +14,8 @@ if int(option) == 1:
             print ("WHY ARE YOU LYING")
             if (fav_color) == "blue" or "purple" or "green":
                 print ("YOU ARE TELLING THE TRUTH")
-        else:
-            print ("YOU SUCK")
+            else:
+                print ("YOU SUCK")
 if int(option) == 2:
     print ("FEEL THE WRATH OF THE COMPUTER")
     var = 0
