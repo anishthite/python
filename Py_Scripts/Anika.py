@@ -2,7 +2,7 @@
 
 
 option = input("Input option- 1 is original program, 2 is the infinite loops")
-if int(option) = 1:
+if int(option) == 1:
     name = input("What is your name?")
     fav_color = input("What is your favorite fake color?")
 
