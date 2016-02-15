@@ -13,7 +13,7 @@ if int(option) == 1:
         else:
             print ("WHY ARE YOU LYING")
             if (fav_color) == "blue" or "purple" or "green":
-            print ("YOU ARE TELLING THE TRUTH")
+                print ("YOU ARE TELLING THE TRUTH")
         else:
             print ("YOU SUCK")
 if int(option) == 2:
