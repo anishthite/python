@@ -1,22 +1,19 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 27 20:47:40 2016
 
-@author: Anish
-"""
+#Created on Wed Jan 27 20:47:40 2016
 
-""" 
+#@author: Anish
 
-A basic way to calculate a tip---
+#A basic way to calculate a tip---
 
-Instructions:
+#Instructions:
 
-Input the tax, meal, and tip
+#Input the tax, meal, and tip
 
-"""
-(tax) = .15
-(meal) = 50.50
-(tip) = .0675
-(tax_meal) = (meal) + (meal) * (tax)
-(total_meal) = (tax_meal) + (tax_meal)* (tax)
+
+tax = input("What's the tax? cost")
+meal = input("What's the meal cost?")
+tip = input("What's the tip cost?")
+tax_meal = (meal) + (meal) * (tax)
+total_meal = (tax_meal) + (tax_meal)* (tax)
 print (total_meal) 
