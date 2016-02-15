@@ -12,4 +12,4 @@ I recommend using a command promt for this (this is for Windows)
 
 4)- type in "python (filename)" and hit enter
 
-5) The program is now running!
+ The program is now running!
