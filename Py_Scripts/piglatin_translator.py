@@ -7,4 +7,4 @@ if len(original) == 0 and  original.isalpha() == False :
     print ("Please type in something")
     original = input("Try again here...")
 else:
-    print "Hold on, your text is translating"
+    print ("Hold on, your text is translating")
