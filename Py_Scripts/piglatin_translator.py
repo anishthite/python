@@ -10,7 +10,20 @@ else:
     print ("Hold on, your text is translating")
 
 ay = "ay"
-lat = (original [0])
+
+word = original.lower()
+first = (word [0])
+
+new_word = word + first + ay
+
+
+print (new_word)
+
+
+
+
+
+new_word = [1:len(new_word)]
 
 print (lat)
 print (ay)
