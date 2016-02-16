@@ -1,5 +1,9 @@
 
 #This is a calculator for the Quadratic Formula
+# How to Use:
+#put the equation into standard form (ax^2+bx+c)
+#the A, B, and C coeffitients are the numbers inthe template above
+#when the computer asks for them, put them in
 #Enjoy
 
 #Define input variables
@@ -7,7 +11,7 @@
 a = input("What's the A coeffitient?")
 b = input("What's the B coeffitient?")
 c = input("What's the C coeffitient?")
- 
+
 
 #negate coeffitient B
 neg_b= int(b)*-1
