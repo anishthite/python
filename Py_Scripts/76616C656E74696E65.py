@@ -1,3 +1,7 @@
+#Work in Process
+#This is a testing ground for an idea
+# Author: Anish Thite, 2016
+
 name = input("Well hey there, what is your name?")
 
 print ("Will you be my valentine " + name + "?")
