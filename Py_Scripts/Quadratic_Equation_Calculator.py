@@ -1,3 +1,6 @@
+# Quadratic Formula calculator
+# Developed by ANish Thite, 2016
+
 
 #This is a calculator for the Quadratic Formula
 # How to Use:
