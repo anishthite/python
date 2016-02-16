@@ -4,6 +4,18 @@
 
 #@author: Anish
 
+name = "Mike"
+print "Hello %s" % (name)
+#The % operator after a string is used to combine a string with variables. The % operator will replace a %s in the string with the string variable that comes after it.
+
+print " What is your name "
+name = raw_input("?")
+quest = raw_input("What is your quest?")
+color = raw_input("What is your favorite color?")
+
+print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
+
 #test out bug from 2.7 Python
 Anish = "it's literal's"
 print (Anish)
@@ -26,7 +38,7 @@ print (len(Anish))
 
 #------------------
 print(Anish.lower())
- 
+
  #------------------
 print (Anish.upper())
  #------------------
