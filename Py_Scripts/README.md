@@ -2,7 +2,7 @@
 
 4 Easy Steps to running my Scripts...
 
-I recommend using a command promt for this (this is for Windows)
+I recommend using a command prompt for this (this is for Windows)
 
 1)- download Python 3 from the official python website
 
