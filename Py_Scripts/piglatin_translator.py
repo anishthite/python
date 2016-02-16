@@ -8,3 +8,6 @@ if len(original) == 0 and  original.isalpha() == False :
     original = input("Try again here...")
 else:
     print ("Hold on, your text is translating")
+
+ay = "ay"
+lat = original [0]
