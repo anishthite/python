@@ -5,7 +5,7 @@
 #the A, B, and C coeffitients are the numbers inthe template above
 #when the computer asks for them, put them in
 #Enjoy
-
+print ("How to Use: put the equation into standard form (ax^2+bx+c) the A, B, and C coeffitients are the numbers inthe template above. When the computer asks for them, put them in. Let's Begin!")
 #Define input variables
 
 a = input("What's the A coeffitient?")
