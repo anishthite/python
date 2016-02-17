@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
-
-#Created on Wed Jan 27 20:57:08 2016
-
-#@author: Anish
+#Created to work with and test out string operators
+#Author: AMT
 
 name = "Mike"
 print "Hello %s" % (name)
