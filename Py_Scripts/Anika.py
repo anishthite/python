@@ -1,5 +1,5 @@
-
-
+#Created to show to a friend
+#Author: Anish Thite, 2016
 
 option = input("Input option- 1 is original program, 2 is the infinite loops")
 if int(option) == 1:
