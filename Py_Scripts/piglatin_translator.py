@@ -1,4 +1,5 @@
 #Piglatin translator
+#Author: Anish Thite, 2016
 
 original = input("Type or copy words into here")
 
