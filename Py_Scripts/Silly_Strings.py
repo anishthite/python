@@ -1,5 +1,5 @@
 #Created to work with and test out string operators
-#Author: AMT
+#Author: Anish Thite, 2016
 
 name = "Mike"
 print "Hello %s" % (name)
