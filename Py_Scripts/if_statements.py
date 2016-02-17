@@ -1,8 +1,5 @@
-#ok
-
-
-#Let's pracice some if(then) statements
-
+#Created to practice some if/then staements
+# Author: Anish Thite, 2016
 if 5 > 0:
 	print ("Thite ")
 else:
