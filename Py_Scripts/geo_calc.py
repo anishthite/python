@@ -9,7 +9,7 @@ shape = input("What shape are you solving for?")
 shape_check = shape.lower()
 
 if shape_check == "square":
-    print ("You inputed s% " % shape_check)
+    print ("You inputed %s " % (shape_check) )
 elif shape_check == "rectangle":
 
 elif shape_check == "triangle":
