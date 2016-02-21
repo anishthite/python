@@ -9,7 +9,7 @@ shape = input("What shape are you solving for?")
 shape_check = shape.lower()
 while 1==1:
     #checks that they inputed right one
-    if shape_check == "square" or "rectangle" or "triangle" or "trapezoid" or "circle":
+    if shape_check == "square" or "rectangle" or "parallelogram" or "triangle" or "trapezoid" or "circle":
         print ("You inputed %s " % (shape_check) )
         print ("Moving on...")
         #user input: formula
@@ -22,7 +22,7 @@ while 1==1:
                 #all code for solving for area
                 if Formula_check == "area":
                     #square/rectangle code
-                    if shape check == "square" or "rectangle":
+                    if shape check == "square" or "rectangle" or "parallelogram":
                         #inputting the length/width to solve for rectangl
                         length = input("What is the numerical length?")
                         width = input("What is the numerical width?")
