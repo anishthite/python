@@ -23,11 +23,13 @@ while 1==1:
                 if Formula_check == "area":
                     #square/rectangle code
                     if shape check == "square" or "rectangle" or "parallelogram":
-                        #inputting the length/width to solve for rectangl
+                        #inputing the length/width to solve for rectangl
                         length = input("What is the numerical length?")
                         width = input("What is the numerical width?")
                         unit = input("What is the unit of the length/width?")
+                        #solving for area
                         answer = int(length) * int(width)
+
                             if
                         print (answer)
                 if Formula_check == "perimeter":
