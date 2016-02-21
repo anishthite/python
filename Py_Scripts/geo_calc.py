@@ -1,6 +1,6 @@
 #A Calculator for Geometry, specifically Area and Premeter
 #Printing instructions:
-
+#update lists: MAKE MORE AUTOMIZE
 
 
 #user input shape solving for:
