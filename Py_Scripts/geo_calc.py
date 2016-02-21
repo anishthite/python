@@ -5,8 +5,8 @@
 
 #user input shape solving for:
 shape = input("What shape are you solving for?")
+#changes to lower to check as standard system
 shape_check = shape.lower()
-#changes to lower to check
 while 1==1:
     #checks that they inputed right one
     if shape_check == "square" or "rectangle" or "triangle" or "trapezoid" or "circle":
@@ -14,14 +14,16 @@ while 1==1:
         print ("Moving on...")
         #user input: formula
         Formula = input("What formula are you solving for? Please input either Area or Perimeter")
-        # checks formula
+        # checks formula as standard system
         Formula_check = Formula.lower()
-        # changes to lower to check
+        #checks
         if Formula_check == "area" or "perimeter":
-            #one more check
             print ("You inputed %s " % (shape_check) )
+                #all code for solving for area
                 if Formula_check == "area":
+                    #square/rectangle code
                     if shape check == "square" or "rectangle":
+                        #inputting the length/width to solve for rectangl
                         length = input("What is the numerical length?")
                         width = input("What is the numerical width?")
                         unit = input("What is the unit of the length/width?")
