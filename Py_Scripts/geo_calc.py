@@ -29,8 +29,8 @@ while 1==1:
                         unit = input("What is the unit of the length/width?")
                         #solving for area
                         answer = int(length) * int(width)
-
-                            if
+                        #attaining units
+                        unit = 
                         print (answer)
                 if Formula_check == "perimeter":
         else:
