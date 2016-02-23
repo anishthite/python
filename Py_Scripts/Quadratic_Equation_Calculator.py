@@ -12,9 +12,11 @@
 #printing instructions
 
 print ("How to Use: put the equation into standard form (ax^2+bx+c) the A, B, and C coeffitients are the numbers in the template above. When the computer asks for them, put them in. Let's Begin!")
+# going to work on making it more automized now
+#equation = input("input the equation here")
+
 
 #Define input variables
-
 a = input("What's the A coeffitient?")
 b = input("What's the B coeffitient?")
 c = input("What's the C coeffitient?")
