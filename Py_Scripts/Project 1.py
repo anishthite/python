@@ -4,14 +4,19 @@
 print ("Hey there, welcome to the Interest Guru! Let' Calculate your interest!")
 #getting Inerest Rate
 interest_rate = input("Please input your interest rate")
-#Converting Interest Rate
+#Converting Interest
+interest_rate = float(interest_rate)
+x = interest_rate * .1
+print x
+
 #Getting principle
-interest_rate = input("Please input your interest rate")
+#interest_rate = input("Please input your interest rate")
 #converting principle
 #Getting time
-interest_rate = input("Please input your interest rate")
+#interest_rate = input("Please input your interest rate")
 #choose compound, consistently compund, or simple interest
-type = input("Choose method of interest: simple, compound, or consistently compounded")
-print type
+#type = input("Choose method of interest: simple, compound, or consistently compounded")
+#print type
 #converting time
 #Converting formula
+"""
