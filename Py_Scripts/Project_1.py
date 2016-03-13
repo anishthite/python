@@ -7,7 +7,7 @@ interest_rate = input("Please input your interest rate")
 #Converting Interest
 interest_rate = float(interest_rate)
 x = interest_rate * .1
-print x
+
 
 #Getting principle
 #interest_rate = input("Please input your interest rate")
@@ -19,4 +19,3 @@ print x
 #print type
 #converting time
 #Converting formula
-"""
