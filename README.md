@@ -5,8 +5,8 @@ These are some of my python scripts, I am using them for benevolent purposes to 
 
 #Folder Guide
 *Eclipse_Projects*:
-  Full Projects developed in Eclipse, can stand alone without additional downloads as a apk file
+  Full Projects developed in Eclipse, can stand alone without additional downloads as a .apk file
 *.metdata*:
   Eclipse generated things, and my personal settings
 *Py_scripts*:
-Stand alone scripts that require an ide (or just Python) to run
+Stand alone scripts that require an IDE ( or Python downloaded to your computer) to run
