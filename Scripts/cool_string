@@ -1,0 +1,1 @@
+print "There are %d items in the suitcase." % (list_length)
