@@ -1,3 +1,11 @@
+/*
+	@author Anish Thite
+	@version November 2016
+
+
+
+*/
+
 import java.util.Random;
 public class BinarySpam {
 
