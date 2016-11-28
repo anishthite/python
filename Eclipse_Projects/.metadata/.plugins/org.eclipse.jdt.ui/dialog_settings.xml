@@ -2,14 +2,17 @@
 <section name="Workbench">
 	<section name="FatJarPackageWizard">
 		<item value="C:\Users\anish\Documents\GitHub\python\Eclipse_Projects" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
-		<item value="BinarySpam - auto_run Binary" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="C:\Users\anish\Documents\GitHub\python\Eclipse_Projects\AutoBin.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="FriendBotRunner - Friend_bot" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="Friend_bot\FriendBot.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
-		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
+		<item value="2" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="Friend_bot/FriendBot.jar"/>
+			<item value="Friend_bot\FriendBot.jar"/>
 			<item value="C:\Users\anish\Documents\GitHub\python\Eclipse_Projects\AutoBin.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="C:\Users\anish\Documents\GitHub\python\Eclipse_Projects.xml"/>
 			<item value=".xml"/>
 		</list>
 	</section>
@@ -51,6 +54,7 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="Friend_bot/FriendBot.jar"/>
 			<item value="C:\Users\anish\Documents\GitHub\python\Eclipse_Projects\AutoRunBinary.jar"/>
 		</list>
 	</section>
