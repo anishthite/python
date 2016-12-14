@@ -1,7 +1,7 @@
  /**
  * Edited from Magpie ( Laurie White, April 2012)
  * @author Anish Thite
- * @version November 2016
+ * @version December 2016
  *
  */
 public class FriendBot
@@ -11,36 +11,25 @@ public class FriendBot
      * @return a greeting
      */    
     public String getGreeting()
-    {
-        return "Hello, Anish. ";
-    }
+    {return "Hello, Anish. ";}
     
-    /**
+    /*
      * Gives a response to a user statement
      * 
-     * @param statement
-     *            the user statement
+     * @param statement-the user statement
      * @return a response based on the rules given
      */
     public String getResponse(String statement)
     {
         String response = "";
-        if (statement.length() == 0)
-        {
+        //checks if response created
+        if (statement.length() == 0){
             response = "Say something, please.";
         }
+        //adds to journal
         else if (findKeyword(statement, "add this to my journal") >= 0){
         	response = "hi";
         }
-
-        else if (findKeyword(statement, "mother") >= 0
-                || findKeyword(statement, "father") >= 0
-                || findKeyword(statement, "sister") >= 0
-                || findKeyword(statement, "brother") >= 0)
-        {
-            response = "Tell me more about your family.";
-        }
-
         // Responses which require transformations
         else if (findKeyword(statement, "I want", 0) >= 0)
         {
@@ -63,6 +52,7 @@ public class FriendBot
                 response = getRandomResponse();
             }
         }
+        //response and adds space
         response = "     " + response;
         return response;
     }
