@@ -164,4 +164,11 @@ public class FriendBot{
         }
         return response;
     }
+    public static void addJournal(){
+         
+        
+    
+    
+    
+    }
 }
