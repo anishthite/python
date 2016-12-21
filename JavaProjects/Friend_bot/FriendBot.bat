@@ -1,0 +1,1 @@
+java -jar FriendBot.jar
