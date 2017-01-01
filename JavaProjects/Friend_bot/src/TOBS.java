@@ -4,7 +4,7 @@
  * @version 1.0
  * @since 12/20/2016
  */
-public class FriendBot{
+public class TOBS{
     /**
      * Get a default greeting     
      * @return a greeting
@@ -23,6 +23,11 @@ public class FriendBot{
         //checks if response created
         if (statement.length() == 0){
             response = "Say something, please.";
+        }
+        //creates journal
+        else if (findKeyword(statement, "create journal") >= 0){
+        	System.out.print("de");
+        	response = "hi";
         }
         //adds to journal
         else if (findKeyword(statement, "add this to my journal") >= 0){

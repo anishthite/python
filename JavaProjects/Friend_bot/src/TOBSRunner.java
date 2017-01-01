@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @version 1.0
  * @since 12/20/2016
  */
-public class FriendBotRunner
+public class TOBSRunner
 {
 
 	/**
@@ -14,7 +14,7 @@ public class FriendBotRunner
 	 */
 	public static void main(String[] args)
 	{
-		FriendBot friend = new FriendBot();
+		TOBS friend = new TOBS();
 		
 		System.out.println (friend.getGreeting());
 		Scanner in = new Scanner (System.in);

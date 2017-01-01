@@ -13,18 +13,20 @@ public class JournalBot {
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
-		create_file();
+		create_journal("test");
 	}
-	/**Creates a journal (.txt file) if there exists no file
+	/**Creates a journal (.txt file)
 	 * @throws IOException 
 	 * 
 	 */
-	public static void create_file() throws IOException{
-		 File test = new File("C:\\Users\\anish\\Documents\\GitHub\\python\\JavaProjects\\Friend_bot\\journaltest.txt");
+	public static void create_journal(String journalName) throws IOException{
+		 File test = new File("C:\\Users\\anish\\Documents\\journals\\" + journalName + ".txt");
 		 test.createNewFile();
 	}
 	/**appends the journal
 	 *  	
 	 */
-	public static void append(){}
+	public static void write(String text, String journalName){
+		FileOutputStream 
+	}
 }
