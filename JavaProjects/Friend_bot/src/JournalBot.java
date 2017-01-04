@@ -1,7 +1,7 @@
 /** JournalBot- For use in FriendBot
  * Saves text user asks to remember, creates running log w/ time
  * @author Anish Thite, December 2016
- * @version 1.0
+ * @version 1.1
  * @since 12/20/2016
  */
 import java.io.*;
