@@ -7,26 +7,43 @@
 import java.io.*;
 public class JournalBot {
 
-	private static FileOutputStream fos;
+	private static FileWriter fw;
+	private static BufferedWriter writer;
 	/**
 	 * @param args
 	 * @throws IOException 
 	 */
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args)  {
 		create_journal("test");
 	}
 	/**Creates a journal (.txt file)
 	 * @throws IOException 
 	 * 
 	 */
-	public static void create_journal(String journalName) throws IOException{
-		 File test = new File("C:\\Users\\anish\\Documents\\journals\\" + journalName + ".txt");
-		 test.createNewFile();
+	public static void create_journal(String journalName) {
+		try { 
+		File journal = new File("C:\\Users\\anish\\Documents\\journals\\" + journalName + ".txt");	
+		
+		if (journal.createNewFile()){
+			
+			
+		}
+		else{
+			
+			
+		}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	/**appends the journal
 	 *  	
 	 */
 	public static void write(String text, String journalName){
-		FileOutputStream 
+		
+		fw = new FileWriter("C:\\Users\\anish\\Documents\\journals\\" + journalName + ".txt");
+		writer = new BufferedWriter(fw);
+		
+		
 	}
 }
