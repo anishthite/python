@@ -17,22 +17,18 @@ public class JournalBot {
 		create_journal("test");
 	}
 	/**Creates a journal (.txt file)
-	 * @throws IOException 
+	 *  @returns journal
 	 * 
 	 */
-	public static void create_journal(String journalName) {
+	public static void open_journal(String journalName) {
 		try { 
-		File journal = new File("C:\\Users\\anish\\Documents\\journals\\" + journalName + ".txt");	
-		
-		if (journal.createNewFile()){
-			
-			
+			File journal = new File("C:\\Users\\anish\\Documents\\journals\\" + journalName + ".txt");		
+			if (!journal.exists){
+				journal.createNewFile();	
+			}
+		return journal;
 		}
-		else{
-			
-			
-		}
-		} catch (IOException e) {
+		catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
@@ -41,7 +37,7 @@ public class JournalBot {
 	 */
 	public static void write(String text, String journalName){
 		
-		fw = new FileWriter("C:\\Users\\anish\\Documents\\journals\\" + journalName + ".txt");
+		fw = new FileWriter(journal.getAbosulteFile(), true);
 		writer = new BufferedWriter(fw);
 		
 		
