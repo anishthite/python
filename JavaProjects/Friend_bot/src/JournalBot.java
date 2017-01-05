@@ -41,5 +41,9 @@ public class JournalBot {
 		writer = new BufferedWriter(fw);
 		
 		
+		writer.write(text);
+		System.out.println("Appended to journal");
+		
+		
 	}
 }
