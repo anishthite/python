@@ -8,8 +8,8 @@ import java.io.*;
 import java.time.LocalDateTime;
 public class JournalBot {
 
-	private static FileWriter fw;
-	private static BufferedWriter writer;
+	public static FileWriter fw;
+	public static BufferedWriter writer;
 	public static File journal;
 	/**
 	 * @param args
@@ -50,5 +50,5 @@ public class JournalBot {
 			e.printStackTrace();
 		}
 	}
-//	public static void add_timedate(){}
+	public static void add_timedate(){}
 }
