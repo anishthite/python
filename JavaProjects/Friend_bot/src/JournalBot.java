@@ -5,6 +5,7 @@
  * @since 12/20/2016
  */
 import java.io.*;
+import java.time.LocalDateTime;
 public class JournalBot {
 
 	private static FileWriter fw;
@@ -12,12 +13,13 @@ public class JournalBot {
 	public static File journal;
 	/**
 	 * @param args
-	 * @throws IOException 
+	 *  
 	 */
 	public static void main(String[] args)  {
 		open_journal("test");
 	}
 	/**Creates a journal (.txt file)
+	 *  @param journalName- journal name in string
 	 *  @returns journal
 	 * 
 	 */
@@ -33,19 +35,20 @@ public class JournalBot {
 		}
 		return journal;
 	}
-	/**appends the journal
-	 *  	
+	/**appends the journal with input text, and adds date/time to it
+	 *  @param String text, String journalName 	
 	 */
 	public static void write(String text, String journalName){
 		
 		try {
 			fw = new FileWriter(journal.getAbsoluteFile(), true);
 			writer = new BufferedWriter(fw);
-			writer.write(text);
+			writer.write(text + "/n");
 			System.out.println("Appended to journal");
 		} 
 		catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
+//	public static void add_timedate(){}
 }
