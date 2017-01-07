@@ -19,8 +19,8 @@ public class JournalBot {
 		open_journal("test");
 	}
 	/**Creates a journal (.txt file)
-	 *  @param journalName- journal name in string
-	 *  @returns journal
+	 *  @param journalName- journal name in string input
+	 *  @returns journal- .txt file here user saves string text
 	 * 
 	 */
 	public static File open_journal(String journalName) {
@@ -36,7 +36,8 @@ public class JournalBot {
 		return journal;
 	}
 	/**appends the journal with input text, and adds date/time to it
-	 *  @param String text, String journalName 	
+	 *  @param text- text user wants to input to journal 
+	 *  @param journalName- name of journal user wants to save text to 	
 	 */
 	public static void write(String text, String journalName){
 		
