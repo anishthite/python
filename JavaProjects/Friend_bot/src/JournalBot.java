@@ -25,7 +25,7 @@ public class JournalBot {
 	 */
 	public static File open_journal(String journalName) {
 		try { 
-			File journal = new File("..\\..\\journals\\" + journalName + ".txt");		
+			File journal = new File("C:\\Users\\anish\\Documents\\journals\\" + journalName + ".txt");		
 			if (!journal.exists()){
 				journal.createNewFile();	
 			}
