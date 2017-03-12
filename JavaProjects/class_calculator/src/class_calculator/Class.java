@@ -12,6 +12,7 @@ public class Class {
 	private boolean isWeighted;
 	private String instructor;
 	private String className;
+	private boolean isPowerschool;
 	
 	
 	
@@ -20,9 +21,10 @@ public class Class {
 		isWeighted = true;
 		instructor = " ";
 		className = " ";
+		isPowerschool = true;
 		
 	}
-	public Class (String name, String teacher, boolean weighted){
+	public Class (String name, String teacher, boolean isPowerschool, boolean weighted){
 		className = name;
 		instructor = teacher;
 		isWeighted = weighted;
