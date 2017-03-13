@@ -15,7 +15,7 @@ public class Class {
 	private boolean isPowerschool;
 	
 	
-	
+	//COnstructors
 	public Class(){
 		
 		isWeighted = true;
@@ -30,7 +30,7 @@ public class Class {
 		isWeighted = weighted;
 		
 	}
-	
+	//Accessing methods
 	public String get_className(){
 		return className;
 	}
@@ -40,8 +40,7 @@ public class Class {
 	public String get_instructor(){
 		return instructor;
 	}
-	
-	
+	//Modfying methods
 	
 	public void set_className(String name){
 		className = name;
